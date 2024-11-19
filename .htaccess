@@ -1,0 +1,15 @@
+Options -Indexes
+RewriteEngine On
+
+# odepře přístup k thunder CLI souboru
+RewriteRule ^(thunder)$ index.php?url=$1 [L,QSA]
+RewriteRule ^(thunder/) index.php?url=$1 [L,QSA]
+
+# přijme načítání skutečných souborů a adresářů
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+# vše ostatní odešle na stránku indexu
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
+
+AddType application/x-httpd-php .php

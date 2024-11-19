@@ -1,0 +1,19 @@
+{
+    "name": "Basic Post",
+    "description": "Creates posts for your website", 
+    "version": "1.0.0", 
+    "id": "basic-posts",
+    "author": "JH-Devs",
+    "author-website": "JH-Devs.org",
+    "thumnail": "thumnail.jpg",
+    "active": true,
+    "index": 1,
+    "routes": {
+        "on": ["all"],
+        "off": ["login","register", "logout"]
+    },
+    "dependencies": {
+
+    },
+    "category": "" 
+}

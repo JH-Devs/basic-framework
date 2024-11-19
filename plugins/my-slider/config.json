@@ -1,0 +1,18 @@
+{
+    "name": "My Slider",
+    "version": "1.0.0",  
+    "id": "my-sliders",
+    "author": "JH-Devs",
+    "author-website": "JH-Devs.org",
+    "thumnail": "thumnail.jpg",
+    "active": true,
+    "index": 1,
+    "routes": {
+        "on": ["home","admin"],
+        "off": []
+    },
+    "dependencies": {
+        "home-page":"1.0.0"
+    },
+    "category": "" 
+}

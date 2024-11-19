@@ -1,0 +1,17 @@
+{
+    "name": "Basic Admin",
+    "version": "1.0.0", 
+    "id": "basic-admin",
+    "author": "JH-Devs",
+    "author-website": "JH-Devs.org",
+    "thumnail": "thumnail.jpg",
+    "active": true,
+    "index": 2,
+    "routes": {
+        "on": ["admin"],
+        "off": []
+    },
+    "dependencies": {
+
+    }
+}

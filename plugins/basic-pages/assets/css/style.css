@@ -1,0 +1,30 @@
+:root{
+    --border-color:#cbd5e1;
+    --color-dark: #212529;
+    --btn-blue: #22d3ee;
+    --btn-blue-hover:#06b6d4;
+}
+.pagination{
+    --bs-pagination-color: var(--color-dark) !important;
+    --bs-pagination-hover-color: var( --border-color) !important;
+    --bs-pagination-active-bg: var( --btn-blue) !important;
+    --bs-pagination-active-border-color: var( --border-color) !important;
+    --bs-pagination-padding-x: 0.75rem;
+    --bs-pagination-padding-y: 0.375rem;
+    --bs-pagination-font-size: .8rem;
+    float:right;
+  }
+  .page-link:hover {
+    z-index: 2;
+    color: white !important;
+    background-color: var( --btn-blue-hover) !important;
+  }
+  
+  .btn-blue{
+    background:var(--btn-blue);
+    color:white;
+}
+.btn-blue:hover{
+    background:var(--btn-blue-hover);
+    color:white;
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Menu",
+    "version": "1.0.0",  
+    "id": "main-menu",
+    "author": "JH-Devs",
+    "author-website": "JH-Devs.org",
+    "thumnail": "thumnail.jpg",
+    "active": true,
+    "index": 3,
+    "routes": {
+        "on": ["all"],
+        "off": ["login", "register", "logout"]
+    },
+    "dependencies": {
+        "basic-admin": "1.0.0"
+    },
+    "category": "" 
+}

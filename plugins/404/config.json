@@ -1,0 +1,16 @@
+{
+    "name": "Page not found",
+    "id": "404",
+    "author": "JH-Devs",
+    "author-website": "JH-Devs.org",
+    "thumnail": "thumnail.jpg",
+    "active": true,
+    "index": 1,
+    "routes": {
+        "on": ["404"],
+        "off": []
+    },
+    "dependencies": {
+
+    }
+}

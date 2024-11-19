@@ -1,0 +1,17 @@
+{
+    "name": "Basic Authentication",
+    "version": "1.0.0", 
+    "id": "basic-auth",
+    "author": "JH-Devs",
+    "author-website": "JH-Devs.org",
+    "thumnail": "thumnail.jpg",
+    "active": true,
+    "index": 1,
+    "routes": {
+        "on": ["all"],
+        "off": []
+    },
+    "dependencies": {
+
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Home Page",
+    "version": "1.0.0", 
+    "id": "home-page",
+    "author": "JH-Devs",
+    "author-website": "JH-Devs.org",
+    "thumnail": "thumnail.jpg",
+    "active": true,
+    "index": 3,
+    "routes": {
+        "on": ["home"],
+        "off": []
+    },
+    "dependencies": {
+
+    }
+}

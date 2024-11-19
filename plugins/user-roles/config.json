@@ -1,0 +1,19 @@
+{
+	"name":"User Roles",
+	"version":"1.0.0",
+	"id":"user-roles",
+    "author": "JH-Devs",
+    "author-website": "JH-Devs.org",
+	"thumbnail":"thumbnail.jpg",
+	"active":true,
+	"index":4,
+	"routes": {
+		"on":["admin"],
+		"off":[]
+	},
+	"dependencies": {
+		"basic-auth":"1.0.0"
+	},
+    "category": "" 
+
+}
